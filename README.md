@@ -1,7 +1,7 @@
 # SeCoV3
 Software calculating overpressure generation in 1D due to sedimentation. 
 
-1- Change the parameters in the in-file ("name.dat").
+1- Change the parameters in the in-file ("name.dat"). Example given: "in_modif13.dat"
 
 line 1: number of cells in the vertical direction;
 line 2: time step for calculations in years;
