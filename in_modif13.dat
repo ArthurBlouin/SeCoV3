@@ -1,0 +1,22 @@
+50						! nz
+0.15						! dt
+5						! # soil type
+1.659     0.081    1e-3			        ! e0    lamda    sigf0   LAYER 1
+2.939     -21.773			        !a  b  k=exp(ae+b) (m/s)
+1.643     0.080    1e-3			        ! e0    lamda    sigf0   LAYER 2
+2.939     -22.11			        !a  b  k=exp(ae+b) (m/s)
+1.821     0.094    1e-3			        ! e0    lamda    sigf0   LAYER 3
+2.939     -22.333			        !a  b  k=exp(ae+b) (m/s)
+2.014     0.105    1e-3			        ! e0    lamda    sigf0   LAYER 4
+2.939     -17.42			        !a  b  k=exp(ae+b) (m/s)
+2.734     0.159    1e-3			        ! e0    lamda    sigf0   LAYER 5
+2.939     -22.785			        !a  b  k=exp(ae+b) (m/s)
+4.4e-4    4.93e-7   26   10			! beta betaf gamas gamaw  kPa-1
+5						! # vitesse de sed
+14.19	  1        100000       1	        ! SAR ti tf m/1000 years years years #layer
+5.39	  100001   500000       2		! SAR ti tf m/1000 years years years #layer 
+2.48	  500001   1000000	3		! SAR ti tf m/1000 years years years #layer 
+2.9	  1000001  3096774	4		! SAR ti tf m/1000 years years years #layer 
+3.96	  3096775  5489412	5		! SAR ti tf m/1000 years years years #layer       
+1.15e-6                                         ! viscosite kPa*s
+50						! nbre for write
